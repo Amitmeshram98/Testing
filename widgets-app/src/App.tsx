@@ -21,6 +21,7 @@ const [eMap, seteMap] = useState();
  useEffect(() => {
 
     //Add Map and View
+	//Commit 1
       const myMap = new Map({
       basemap: "streets-vector"
     });
