@@ -1,0 +1,28 @@
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+
+}
+
+.headerpanel{
+  height: 100px;
+  background-color: azure;
+  color: black;
+}
+
+.mainpanel{
+  height: calc(100% - 100px);
+}
+
+.esri-view-root{
+  height: 100%;
+}
+
